@@ -1,0 +1,14 @@
+{
+  "name": "finance-managment",
+  "version": "1.0.0",
+  "description": "Finance managment web-app in js",
+  "source": "index.html",
+  "scripts": {
+    "start": "parcel"
+  },
+  "author": "Khubaib Sajid",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.9.3"
+  }
+}
