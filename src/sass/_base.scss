@@ -1,0 +1,46 @@
+// $color-black: #222;
+$color-primary: #c8ee44;
+$color-secondary: #29a073;
+$color-white: #fff;
+
+// TEXT
+$color-text-1: #1b212d;
+$color-text-2: #929eae;
+$color-text-3: #78778b;
+
+// GRAY
+$color-gray-text: #fafafa;
+$color-gray-borders: #f2f2f2;
+
+// STATUS
+$color-error: #e5363d;
+$color-success: #19d076;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+h3,
+p,
+label {
+  color: $color-text-1;
+}

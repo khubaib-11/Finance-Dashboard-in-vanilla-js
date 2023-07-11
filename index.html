@@ -6,7 +6,31 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     />
-    <title>Document</title>
+    <title>Finance app</title>
+
+    <!-- Font -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--  -->
+
+    <!-- SASS -->
+    <link
+      rel="stylesheet"
+      href="src/sass/main.scss"
+    />
+
+    <!--  -->
 
     <!-- JS -->
     <script
@@ -16,5 +40,68 @@
     ></script>
     <!--  -->
   </head>
-  <body></body>
+  <body>
+    <div class="login">
+      <div class="login__content">
+        <div class="login__content--header">
+          <h3>Khuabib .</h3>
+        </div>
+        <div class="login__content--body">
+          <h3 class="login__content--body--title">Welcome back</h3>
+          <p class="login__content--body--desc">
+            Welcome back, please enter your details
+          </p>
+          <form class="login__content--body--form">
+            <div class="login__content--body--form--email--input">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                placeholder="Enter your email"
+              />
+            </div>
+
+            <div class="login__content--body--form--password--input">
+              <label for="password">Password</label>
+              <input
+                type="password"
+                placeholder="Enter your password"
+              />
+            </div>
+
+            <div class="login__content--body--form--remember--input">
+              <div>
+                <input
+                  type="checkbox"
+                  id="check"
+                />
+                <label for="check">Remember for 30 days</label>
+              </div>
+              <h5>Forgot password</h5>
+            </div>
+            <div class="login__content--body--form--buttons">
+              <button class="button-full primary-button">Sign in</button>
+              <button class="button-full white-button google-login">
+                <span
+                  ><img
+                    class="google-logo"
+                    src="./src/images/google-logo.webp"
+                    alt=""
+                /></span>
+                Sign in with Google
+              </button>
+            </div>
+            <div class="no-account">
+              <p>Don't have an account? <a href="#"> Sign up for free</a></p>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="login__img">
+        <img
+          src="./src/images/login-image.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+  </body>
 </html>

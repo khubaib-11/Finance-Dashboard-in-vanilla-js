@@ -1,0 +1,30 @@
+.button-full {
+  cursor: pointer;
+  padding: 1rem;
+  border: none;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.primary-button {
+  box-shadow: 1px 2px $color-primary;
+  background-color: $color-primary;
+  color: $color-text-1;
+}
+.white-button {
+  background-color: $color-white;
+  border: 1px solid $color-gray-borders;
+  box-shadow: 2px 1px 14px $color-gray-borders;
+  color: $color-text-1;
+  font-weight: 400;
+}
+
+.google-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
